@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+#app {
+    font-family: Georgia, serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: #505050;
+}
+
+#svg *, .svg * {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#waitform {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    cursor: wait;
+}
+
+a {
+    color: gray;
+}
+
+em {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    font-style: normal;
+    padding: 0 3px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+
+p {
+    font-size: 80%;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
