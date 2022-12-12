@@ -1,0 +1,49 @@
+.header {
+	position: relative;
+	color: white;
+	padding: 15px 15px 0;
+	z-index: 10;
+}
+
+nav {
+	float: right;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+nav a {
+	font-family: Georgia, serif;
+	font-size: 100%;
+	padding: 3px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.0);
+	margin-left: 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	height: 28px;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.title {
+	display: inline-block;
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0 2em 0 0;
+}
+
+.app_icon {
+	vertical-align: middle;
+}
+
+.seria_name {
+	color: lightgray;
+	position: absolute;
+	left: 12em;
+	top: 15px;
+}
